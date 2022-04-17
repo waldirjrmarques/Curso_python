@@ -3,4 +3,4 @@ real =  float(input('QUANTO VOCE TEM EM DINHEIRO R$: '))
 dolar = 5.30
 conversao = real / dolar
 
-print('VOCÊ TEM R$:{} CONVERTIDO EM DOLAR VOCÊ TERIA USD:{:.2f}'.format(real,conversao))
+print('VOCÊ TEM R$:{:.2f} CONVERTIDO EM DOLAR VOCÊ TERIA USD:{:.2f}'.format(real,conversao))
