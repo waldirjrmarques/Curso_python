@@ -1,9 +1,10 @@
 '''Manipulando texto - Fatiamento'''
 
 #Mostrando só um indice da string [0]
-#Escreva algo:Curso em Video Python
 teste = input('Escreva algo:')
 print(teste[0])
+#Mostrando o ultom indice da string[-1]
+print(teste[-1])
 
 #Mostrando um intervalo de indice da string ex: [9:13] (9 ate 13 excluindo o indice 13)
 print(teste[9:13])
@@ -31,13 +32,16 @@ print(teste.count('o'))
 # Função ex  teste.cont('o',0,13) verifica quantos o tem a variavel com fatiamento do indice 0 ate 13 excluindo 13.
 print(teste.count('o',0,13))
 
-#Função vericar em se tem  indice com nome 'deo' e se tiver uqal posição começou. ex  teste.find('deo')
-print(teste.find('deo'))
+#Função vericar em se tem  indice com nome 'a' e se tiver qual posição primeira. ex  teste.find('a')
+print(teste.find('a'))
+
+#Função vericar em se tem  indice com nome 'a' e se tiver qual a ultima posoção. ex  teste.find('a')
+print(teste.rfind('a'))
 
 #Função vericar em se tem  indice com 'android', se nao tiver retorna -1
 print(teste.find('android'))
 
-#função verifica se tem o nome 'Curso na frase'
+#função verifica se tem o nome 'Curso na frase' retorna verdadeiro ou falso
 print('Curso'in teste)
 
 ''' Manipulando texto - Tranformação'''

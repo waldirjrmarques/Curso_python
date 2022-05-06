@@ -89,3 +89,31 @@ print('{:.3f}'.format(valor))
 #\n quebra linha do print
 print ('Teste de print \n com python com guanabara', end= ' ')
 print ('Outra parte de teste com print.')
+
+'''
+Tabela - Operadores Relacionais
+==	Igual a
+!=	Diferente
+>=	Maior ou igual
+>	Maior que
+<	Menor que
+<=	Maior ou igual
+'''
+
+'''
+Operadores Lógicos
+or	OU lógico
+and	E lógico
+not	Negação
+'''
+
+'''
+Tabela de precedência em Python
+- menos unário(sinal de número negativo)    Executado Antes
+* / Operadores Multiplicativos
++ -    Operadores aditivos
+< > <= >= == != Relacionais
+not Operador de negação
+and e lógico Executado Depois
+or ou lógico 
+'''
