@@ -97,7 +97,7 @@ Tabela - Operadores Relacionais
 >=	Maior ou igual
 >	Maior que
 <	Menor que
-<=	Maior ou igual
+<=	Menor ou igual
 '''
 
 '''

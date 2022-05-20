@@ -11,6 +11,7 @@ from time import sleep
 maquina = randint(0,5) #sorteia um nomero entre esses ranges
 numero = int(input('Digite o número que está pensando: '))
 
+
 print('PROCESSANDO...')
 sleep(2)
 if numero == maquina:
