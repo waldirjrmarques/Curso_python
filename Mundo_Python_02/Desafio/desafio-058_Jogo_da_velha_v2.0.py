@@ -8,7 +8,7 @@ print('Sou seu computador....')
 print('Acabei de pensar em um número entre 0 e 10.')
 
 from random import randint
-maquina = randint(0,10) #sorteia um nomero entre esses ranges
+maquina = randint(0,10) #sorteia um numero entre esses ranges
 palpite = 0
 tentativa = 0
 while palpite != maquina:
