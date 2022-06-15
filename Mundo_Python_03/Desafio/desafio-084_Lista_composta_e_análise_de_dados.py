@@ -5,9 +5,8 @@ galera = list()
 dados = list()
 numeros = list()
 maiorlista = list()
-nomesmaior = list()
 menorLista = list()
-nomesmenor = list()
+
 while True:
     dados.append(str(input('Nome: ')))
     dados.append(float(input('Peso: ')))
@@ -34,14 +33,13 @@ for indice, valor in enumerate(galera):
     if menor in valor:
         menorLista.append(valor)
 
-#nomesmaior = list
-for indice, valor in enumerate(maiorlista):
-    nomesmaior.append(valor[0])
-
-#nomesmenor = list
-for indice, valor in enumerate(menorLista):
-    nomesmenor.append(valor[0])
-
+print('-='* 20)
+print(f'Lista: {galera}')
 print(f'Ao todo, você cadastrou  {len(galera)} pessoas.')
-print(f'O maior peso foi {maior:.1f}Kg. Peso de {nomesmaior}')
-print(f'O maior peso foi {menor:.1f}Kg. Peso de {nomesmenor}')
+print(f'O maior peso foi {maior:.1f}Kg. Peso de ',end='')
+for indice, valor in enumerate(maiorlista):
+    print(f'[{valor[0]}]',end= '  ')
+print(f'\nO maior peso foi {menor:.1f}Kg. Peso de',end=' ')
+for indice, valor in enumerate(menorLista):
+    print(f'[{valor[0]}]', end='  ')
+
