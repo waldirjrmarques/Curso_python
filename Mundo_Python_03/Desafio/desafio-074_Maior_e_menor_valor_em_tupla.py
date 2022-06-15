@@ -21,7 +21,7 @@ print(f'Menor numero: {menor}')
 
 #SOLUÇÃO GUANABARA
 from random import randint
-n = randint(1,60),randint(1,60),randint(1,60),randint(1,60),randint(1,60)
+n = randint(1,61),randint(1,61),randint(1,61),randint(1,61),randint(1,61),randint(1,61)
 print(f'Os valores sorteados: {n}')
 print(f'O maior valor sorteado: {max(n)}')
 print(f'O menor valor sorteado: {min(n)}')
