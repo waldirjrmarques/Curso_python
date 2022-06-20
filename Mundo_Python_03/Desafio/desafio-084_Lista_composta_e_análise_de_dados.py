@@ -1,5 +1,9 @@
 '''
-
+Faça um programa que leia nome e peso de várias pessoas,gaurdando tudo em uma lista.
+No final mostre:
+* - Quantas pessoas foram cadastradas.
+* - Uma lista com as pessoas mais pesadas.
+* - Uma listagem com as pessoas mais leves.
 '''
 galera = list()
 dados = list()
@@ -12,6 +16,7 @@ while True:
     dados.append(float(input('Peso: ')))
     galera.append(dados[:])
     dados.clear()
+
     resp = str(input('Quer continuar [S / N ] ')).strip().upper()[0]
     while resp != 'S' and resp != 'N':
         print('ERRO')
