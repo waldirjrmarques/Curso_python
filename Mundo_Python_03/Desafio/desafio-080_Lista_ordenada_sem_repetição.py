@@ -12,7 +12,6 @@ for c in range(0,5):
 print(numeros)'''
 
 numeros = list()
-
 for c in range(0,5):
     numero = int(input(f'Digite um valor: '))
     numeros.append(numero)
