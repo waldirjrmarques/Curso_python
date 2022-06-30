@@ -56,3 +56,4 @@ for estado in brasil:
         print(valor,  end='  ')
     print()
 
+
