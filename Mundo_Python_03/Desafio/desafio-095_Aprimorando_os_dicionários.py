@@ -1,5 +1,5 @@
 '''
-
+APRIMORE O DESAFIO 093 PARA QUE ELE FUNCIONE COM VÁRIOS OGADORES, INCLUINDO UM SISTEMA DE VISUALIZAÇÃO DE DETALHES DO APROVEITAMENTO DE CADA JOGADOR.
 '''
 jogador = dict()
 lista = list()
@@ -29,7 +29,7 @@ print(f'{"Cod":<4}{"Nome":<4}{"Gols":>10} {"Total":>8}')
 print('-'* 30)
 for indice, valor in enumerate(lista):
     print(f'{indice:<4}',end='')
-    print(f'{valor["nome"]:<4}',end='')
+    print(f'{valor["nome"]:<6}',end='')
     print(f' {valor["gols"]}',end='')
     print(f'{valor["total"]:>8.1f}',end='')
     print()
