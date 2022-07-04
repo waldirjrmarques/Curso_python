@@ -62,6 +62,7 @@ soma(5, 6)
 soma(4, 8, 9, 7 )
 
 print('\n')
+
 def quercontinuar():
     while True:
         resp = str(input('Quer continuar [S / N ] ')).strip().upper()[0]
