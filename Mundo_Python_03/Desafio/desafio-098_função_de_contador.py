@@ -83,3 +83,6 @@ inicio = int(input('Inicio:'))
 fim = int(input('Fim:'))
 passo = int(input('Passo:'))
 contador(inicio,fim,passo)
+
+
+
