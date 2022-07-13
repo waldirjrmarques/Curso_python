@@ -12,7 +12,7 @@ print(dados['idade'])
 dados['sexo'] = 'M' #adcionando um elemento no final do dicionario
 print(dados)
 del dados['idade'] #removendo idade
-dados['nome'] = 'Leandro' # reatribuinro nome de pedro para leandro
+dados['nome'] = 'Leandro' # reatribuindo nome de pedro para leandro
 print(dados)
 
 print("-="*30)
